@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  font-family: 'font', sans-serif;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 .main-content {
@@ -67,7 +67,7 @@ body {
   margin-bottom: 40px;
 }
 
-.container p {
+.text {
   margin-bottom: 40px;
   width: 872px;
 }
@@ -113,4 +113,96 @@ h3 {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.download {
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 30px;
+  color: #3f2aff;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.main-header {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.quote {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
+}
+
+.gray-ellipse {
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.decorate1 {
+  background-image: url("../img/decorate-1.png");
+}
+
+.decorate2 {
+  background-image: url("../img/decorate-2.png");
+}
+
+.header2 {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+::marker {
+  color: blue;
+}
+
+.items {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+  width: fit-content;
+}
+
+.header3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+.figure {
+  font-size: 0;
+}
+
+.figure figcaption {
+  border: 1px solid #b6b6b6;
+  border-top: 0;
+  padding: 19px 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
