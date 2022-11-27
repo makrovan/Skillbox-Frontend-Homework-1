@@ -264,6 +264,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 572px 180px;
   position: relative;
+  vertical-align: top;
 }
 
 .promo-1 {
